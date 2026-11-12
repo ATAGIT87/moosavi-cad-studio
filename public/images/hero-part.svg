@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 520" fill="none">
+ <g stroke="#748073" stroke-width="1" opacity=".42"><path d="M37 369 321 204l299 172M38 286 320 123l300 172M99 404V201M558 408V198"/><path d="M64 442h490M70 435v14M548 435v14M35 105h582M35 99v12M617 99v12"/><circle cx="320" cy="260" r="205" stroke-dasharray="4 7"/><path d="M320 30v460M75 260h490" stroke-dasharray="4 7"/></g>
+ <path d="m112 290 207-120 210 121v74L319 487 112 366Z" fill="#343a34" stroke="#a9b0a1" stroke-width="1.5"/>
+ <path d="m112 290 207-120 210 121-210 122Z" fill="#687269" stroke="#b0b9a9" stroke-width="1.5"/>
+ <path d="m166 287 153-88 153 89-153 89Z" fill="#515b52" stroke="#a2ad9e"/>
+ <path d="m216 215 103-59 103 59v78l-103 61-103-60Z" fill="#4a554c" stroke="#c1c6b8" stroke-width="1.5"/>
+ <path d="m216 215 103-59 103 59-103 60Z" fill="#939d8c" stroke="#ced3c6" stroke-width="1.5"/>
+ <path d="m319 275 103-60v78l-103 61Z" fill="#667268" stroke="#b0b9aa"/>
+ <ellipse cx="319" cy="215" rx="39" ry="22" fill="#303a32" stroke="#d4d7cb" stroke-width="1.5"/><path d="M280 215v18c0 12 17 22 39 22s39-10 39-22v-18" fill="#424e43" stroke="#aab4a5"/><path d="M280 224c4 10 20 17 39 17s35-7 39-17" stroke="#bdc6b6"/>
+ <g fill="#343f36" stroke="#c2cbbd"><ellipse cx="176" cy="291" rx="12" ry="7"/><ellipse cx="463" cy="291" rx="12" ry="7"/><ellipse cx="319" cy="374" rx="12" ry="7"/></g>
+ <g stroke="#bc9673" stroke-width="1"><path d="M133 399 88 425M503 399l48 27M319 491v-35"/><circle cx="88" cy="425" r="3"/><circle cx="551" cy="426" r="3"/></g>
+ <g fill="#a2a99d" font-family="Arial" font-size="9" letter-spacing="2"><text x="45" y="95">ISOMETRIC VIEW</text><text x="538" y="95">SCALE 1:1</text><text x="276" y="459">CAD / 001</text></g>
+</svg>

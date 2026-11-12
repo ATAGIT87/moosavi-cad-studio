@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" fill="none">
+ <rect width="600" height="500" fill="#d7d9d1"/><path d="M300 0v500" stroke="#bfc4b9"/>
+ <g stroke="#969e91" stroke-width="2" stroke-linecap="round" opacity=".8"><path d="m72 290 77-46 79 42-77 49-79-45ZM72 290l2 48 77 44 1-47M228 286v48l-77 48M112 266l37-21 39 21v43l-38 22-38-22Z"/><path d="M112 266l38 23 38-23M150 289v42M80 185l100 6M94 175l80 4" stroke-width="1"/></g>
+ <g stroke="#697c6c" stroke-width="1.5"><path d="m350 290 79-46 79 46-79 46Z" fill="#aab8a7"/><path d="m350 290 79 46v48l-79-45Z" fill="#718374"/><path d="m429 336 79-46v49l-79 45Z" fill="#899b88"/><path d="m389 266 40-23 40 23-40 23Z" fill="#d3ddce"/><path d="m389 266 40 23v42l-40-23Z" fill="#8d9f8b"/><path d="m429 289 40-23v42l-40 23Z" fill="#a7b6a2"/></g>
+ <path d="M266 250h68m-8-7 8 7-8 7" stroke="#a47e5b" stroke-width="1.5"/><g fill="#90988d" font-family="Arial" font-size="10" letter-spacing="2"><text x="80" y="420">SKIZZE</text><text x="360" y="420">CAD MODELL</text></g>
+</svg>

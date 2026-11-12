@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1000" fill="none">
+  <defs>
+    <pattern id="grid" width="56" height="56" patternUnits="userSpaceOnUse" patternTransform="skewY(-28)">
+      <path d="M56 0H0V56" stroke="#a9afb0" stroke-width=".7" opacity=".27"/>
+    </pattern>
+    <pattern id="windows" width="70" height="130" patternUnits="userSpaceOnUse">
+      <path d="M0 0H70V130H0zM8 8H62V122H8zM35 8V122M8 65H62" stroke="#c1c6c5" stroke-width="1" opacity=".62"/>
+    </pattern>
+    <pattern id="floor" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M0 0H24V24H0zM0 12H24M12 0V24" stroke="#b1b8b6" stroke-width=".65" opacity=".48"/>
+    </pattern>
+    <g id="level" stroke="#c9cecd" stroke-width="1.5">
+      <path d="M0 0L610-325 1190-17 575 310Z"/>
+      <path d="M0 10L575 320 1190-7M0 20L575 330 1190 3"/>
+      <path d="M0 0v20M575 310v20M1190-17V3"/>
+      <path d="M70-37 645 270M140-75 715 233M210-112 785 196M280-149 855 158M350-186 925 121M420-224 995 84M490-261 1065 47M560-298 1135 9" opacity=".6"/>
+      <path d="M75 40 685-285M150 80 760-245M225 120 835-205M300 160 910-165M375 200 985-125M450 240 1060-85M525 280 1135-45" opacity=".55"/>
+    </g>
+    <g id="column" stroke="#e0e4e1">
+      <path d="M0 0V-320M12 6V-314M24 0V-320M0 0l12 6 12-6M0-320l12-6 12 6"/>
+      <path d="M4-30v-260M20-30v-260" opacity=".5"/>
+    </g>
+  </defs>
+  <rect width="1800" height="1000" fill="#25272a"/>
+  <path d="M500 650 1350 190 1900 490 1010 1000H500Z" fill="url(#grid)" opacity=".75"/>
+  <g transform="translate(735 710)" stroke-linejoin="round" stroke-linecap="round">
+    <g opacity=".32"><use href="#level" transform="translate(-60 135)"/><use href="#level" transform="translate(-60 150)"/></g>
+    <g opacity=".72">
+      <use href="#level"/>
+      <use href="#level" transform="translate(0 -210)"/>
+      <use href="#level" transform="translate(0 -420)"/>
+      <use href="#level" transform="translate(0 -630)"/>
+      <use href="#column" transform="translate(65 35) scale(1 1.95)"/>
+      <use href="#column" transform="translate(280 150) scale(1 1.95)"/>
+      <use href="#column" transform="translate(510 275) scale(1 1.95)"/>
+      <use href="#column" transform="translate(750 215) scale(1 1.95)"/>
+      <use href="#column" transform="translate(980 93) scale(1 1.95)"/>
+      <use href="#column" transform="translate(1160 -5) scale(1 1.95)"/>
+      <use href="#column" transform="translate(310 -165) scale(1 1.95)"/>
+      <use href="#column" transform="translate(595 -315) scale(1 1.95)"/>
+    </g>
+    <g stroke="#c8cfcd" stroke-width="1" opacity=".7">
+      <path d="M60 32V-588L510-828V-208ZM75 40V-575L495-799V-185ZM75-185l420-224M75-395l420-224"/>
+      <path d="M510-208V-828L1100-515V105ZM530-199V-795L1080-503V93ZM530-405l550 293M530-615l550 293"/>
+      <path d="M75 40l420-224V-799L75-575Z" fill="url(#windows)" opacity=".65"/>
+      <path d="M530-795l550 292V93L530-199Z" fill="url(#windows)" opacity=".65"/>
+      <path d="M-25-224 370-435l210 112-395 210ZM-25-224v25L185-88l395-210v-25M185-113v25"/>
+      <path d="M-25-224 370-435l210 112-395 210Z" fill="url(#floor)"/>
+      <path d="M270-540 565-698l303 161-295 158ZM270-540v18l303 161 295-158v-18M573-379v18"/>
+      <path d="M270-540 565-698l303 161-295 158Z" fill="url(#floor)"/>
+      <path d="M485-670v-130l96-52 96 51v130M485-800l96 51 96-52M581-749v129"/>
+      <path d="M775-435v-170l110-58 110 58v170M775-605l110 58 110-58M885-547v170"/>
+      <path d="M-90-180 270 12M-90-170 270 22M-90-160 270 32M-90-150 270 42M-90-140 270 52"/>
+      <path d="M-90-180v40M270 12v40M-40-207v90M15-237v150M70-266v207M125-296v267M180-325v325M235-355v385"/>
+      <path d="M650 155 1130-100M650 165 1130-90M650 175 1130-80M650 185 1130-70M650 195 1130-60"/>
+      <path d="M650 155v40M1130-100v40M710 123v40M770 91v40M830 59v40M890 27v40M950-5v40M1010-37v40M1070-69v40"/>
+    </g>
+    <g stroke="#cbd2cf" stroke-width="1" opacity=".45">
+      <path d="M-130 110 600-280 1250 65M-130 120 600-270 1250 75M-130 130 600-260 1250 85"/>
+      <path d="M-130 110v20M600-280v20M1250 65v20"/>
+      <path d="M160-470v-135M175-462v-135M190-454v-135M205-446v-135M220-438v-135M235-430v-135"/>
+      <path d="M740-805v-180M755-797v-180M770-789v-180M785-781v-180M800-773v-180"/>
+      <path d="M1040-650v-190M1055-642v-190M1070-634v-190M1085-626v-190"/>
+    </g>
+    <g stroke="#a1ee91" stroke-width="1.2" opacity=".65">
+      <path d="M-70 25 10-18 65 12-15 55ZM-70 25v12l55 30 80-43V12M-15 55v12"/>
+      <path d="M-50 26 10-7 45 12-15 44Z"/>
+    </g>
+  </g>
+</svg>
